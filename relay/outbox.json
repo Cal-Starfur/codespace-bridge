@@ -1,5 +1,9 @@
 {
   "id": "5e896159",
-  "ready": false,
-  "running": true
+  "ready": true,
+  "exitCode": 0,
+  "stdout": "assets/icon.png: ASCII text, with very long lines (65536), with no line terminators\ntotal 256\ndrwxrwxrwx+ 2 codespace codespace   4096 Jun 16 22:43 .\ndrwxrwxrwx+ 8 codespace root        4096 Jun 16 22:37 ..\n-rw-rw-rw-  1 codespace codespace 251136 Jun 16 22:43 icon.png\n",
+  "stderr": "",
+  "durationMs": 377,
+  "timedOut": false
 }
