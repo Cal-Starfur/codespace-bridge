@@ -1,5 +1,9 @@
 {
   "id": "d7b23be8",
-  "ready": false,
-  "running": true
+  "ready": true,
+  "exitCode": 0,
+  "stdout": "Hello from Claude!\ncodespace\n/workspaces/codespace-bridge\n",
+  "stderr": "",
+  "durationMs": 9,
+  "timedOut": false
 }
