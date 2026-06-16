@@ -1,9 +1,5 @@
 {
-  "id": "c6d7ecf3",
-  "ready": true,
-  "exitCode": 127,
-  "stdout": "/home/codespace/nvm/current/bin/devvit\n ›   Warning: commands is not a devvit command.\nDid you mean login? [y/n]: \n ›   Error: Run devvit help for a list of available commands.\n",
-  "stderr": "",
-  "durationMs": 11876,
-  "timedOut": false
+  "id": "3fd202d1",
+  "ready": false,
+  "running": true
 }
