@@ -1,4 +1,1 @@
-{
-  "cmd": null,
-  "id": null
-}
+{"cmd": "/home/codespace/nvm/current/bin/devvit install --help 2>&1 && echo '---' && /home/codespace/nvm/current/bin/devvit update --help 2>&1", "id": "9979ce3f", "cwd": "/workspaces/Wigglers_Room"}
