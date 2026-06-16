@@ -1,5 +1,9 @@
 {
   "id": "f3269fb3",
-  "ready": false,
-  "running": true
+  "ready": true,
+  "exitCode": "ENOENT",
+  "stdout": "",
+  "stderr": "",
+  "durationMs": 2,
+  "timedOut": false
 }
