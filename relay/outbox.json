@@ -1,9 +1,5 @@
 {
-  "id": "23c055e4",
-  "ready": true,
-  "exitCode": 0,
-  "stdout": "Updating 8e407f3..21d588a\nFast-forward\n src/main.tsx | 14 ++++++++------\n 1 file changed, 8 insertions(+), 6 deletions(-)\n",
-  "stderr": "From https://github.com/Cal-Starfur/Wigglers_Room\n   8e407f3..21d588a  main       -> origin/main\n",
-  "durationMs": 293,
-  "timedOut": false
+  "id": "177f3210",
+  "ready": false,
+  "running": true
 }
