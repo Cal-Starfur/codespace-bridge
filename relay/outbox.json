@@ -1,9 +1,5 @@
 {
-  "id": "98961183",
-  "ready": true,
-  "exitCode": 2,
-  "stdout": "Automatically bumped app version to: 0.0.58\nBuilding...\n\u001b[G\u001b[1A\u001b[JBuilding... \u001b[38;5;104m⣾\u001b[0m\n\u001b[G\u001b[1A\u001b[JBuilding... done\nWe'll create a default playtest subreddit for your app!\nUploading...\n\u001b[G\u001b[1A\u001b[JUploading... \u001b[38;5;104m⣽\u001b[0m\n\u001b[G\u001b[1A\u001b[JUploading... \u001b[38;5;104m⣻\u001b[0m\n\u001b[G\u001b[1A\u001b[JFailed to upload assets. (Unable to detect MIME type of media.)\nUploading... !\n ›   Error: Failed to upload assets. (Unable to detect MIME type of media.)\n",
-  "stderr": "",
-  "durationMs": 3084,
-  "timedOut": false
+  "id": "5e896159",
+  "ready": false,
+  "running": true
 }
