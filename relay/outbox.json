@@ -1,5 +1,9 @@
 {
   "id": "5b7952bf",
-  "ready": false,
-  "running": true
+  "ready": true,
+  "exitCode": 0,
+  "stdout": "webroot/icon.png: PNG image data, 500 x 500, 8-bit/color RGBA, non-interlaced\nno imagemagick\n",
+  "stderr": "",
+  "durationMs": 7,
+  "timedOut": false
 }
