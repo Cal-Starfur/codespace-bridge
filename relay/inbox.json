@@ -1,4 +1,1 @@
-{
-  "cmd": null,
-  "id": null
-}
+{"cmd": "/home/codespace/nvm/current/bin/devvit install wigglers-room 2>&1 || /home/codespace/nvm/current/bin/devvit update 2>&1 || echo 'neither worked'", "id": "61079d4a", "cwd": "/workspaces/Wigglers_Room"}
