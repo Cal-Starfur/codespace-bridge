@@ -1,4 +1,5 @@
 {
-  "cmd": null,
-  "id": null
+  "cmd": "git pull",
+  "id": "0f0b7b99",
+  "cwd": "/workspaces/Wigglers_Room"
 }
