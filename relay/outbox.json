@@ -1,9 +1,5 @@
 {
-  "id": "54699072",
-  "ready": true,
-  "exitCode": 0,
-  "stdout": "assets/icon.png: PNG image data, 500 x 500, 8-bit/color RGB, non-interlaced\n",
-  "stderr": "",
-  "durationMs": 9,
-  "timedOut": false
+  "id": "85ce2fce",
+  "ready": false,
+  "running": true
 }
