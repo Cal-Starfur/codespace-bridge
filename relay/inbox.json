@@ -1,6 +1,6 @@
 {
-  "cmd": "git pull",
-  "id": "b7c80c40",
+  "cmd": "/home/codespace/nvm/current/bin/devvit upload --just-do-it 2>&1",
+  "id": "9b340d15",
   "cwd": "/workspaces/Wigglers_Room",
-  "ts": "2026-06-16T22:51:23.039491"
+  "ts": "2026-06-16T22:54:30.355697"
 }
