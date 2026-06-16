@@ -1,4 +1,5 @@
 {
-  "cmd": null,
-  "id": null
+  "cmd": "echo 'Hello from Claude!' && whoami && pwd",
+  "id": "d7b23be8",
+  "cwd": "/workspaces/codespace-bridge"
 }
