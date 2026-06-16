@@ -1,1 +1,6 @@
-{"command": "cd /workspaces/Wigglers_Room && git pull && /home/codespace/nvm/current/bin/devvit upload --just-do-it && /home/codespace/nvm/current/bin/devvit install wigglers_room_dev 2>&1", "ts": 1781644227}
+{
+  "cmd": "echo BRIDGE_OK",
+  "id": "5aa8520b",
+  "cwd": "/workspaces/Wigglers_Room",
+  "ts": "2026-06-16T22:33:20.706710"
+}
