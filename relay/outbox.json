@@ -1,5 +1,9 @@
 {
   "id": "6d954f3b",
-  "ready": false,
-  "running": true
+  "ready": true,
+  "exitCode": 0,
+  "stdout": "assets/icon.png: PNG image data, 500 x 500, 8-bit/color RGBA, non-interlaced\n-rw-rw-rw- 1 codespace codespace 286K Jun 16 23:53 assets/icon.png\n",
+  "stderr": "",
+  "durationMs": 14,
+  "timedOut": false
 }
