@@ -180,7 +180,7 @@ async function main() {
       continue;
     }
 
-    // Mark running
+    // Mark running — always fetch fresh SHA immediately before writing
     const { sha: outSha1 } = await readRepoFile(OUTBOX_PATH);
     await writeRepoFile(OUTBOX_PATH, { id: inbox.id, ready: false, running: true },
       outSha1, `bridge3: running [${inbox.id}]`);
@@ -188,12 +188,14 @@ async function main() {
     const result = await runCommand(cmd, cwd);
     console.log(`  ✓ exit ${result.exitCode} (${result.durationMs}ms)`);
 
+    // Always fetch fresh SHAs right before each write to avoid 409 conflicts
     const { sha: outSha2 } = await readRepoFile(OUTBOX_PATH);
     await writeRepoFile(OUTBOX_PATH, { id: inbox.id, ready: true, ...result },
       outSha2, `bridge3: result [${inbox.id}]`);
 
+    const { sha: freshInboxSha } = await readRepoFile(INBOX_PATH);
     await writeRepoFile(INBOX_PATH, { cmd: null, id: null },
-      inboxSha, `bridge3: clear inbox [${inbox.id}]`);
+      freshInboxSha, `bridge3: clear inbox [${inbox.id}]`);
   }
 }
 
