@@ -1,5 +1,9 @@
 {
   "id": "f5913a96",
-  "ready": false,
-  "running": true
+  "ready": true,
+  "exitCode": 0,
+  "stdout": "Logged in as u/AffectionateTrust984\n",
+  "stderr": "",
+  "durationMs": 1801,
+  "timedOut": false
 }
