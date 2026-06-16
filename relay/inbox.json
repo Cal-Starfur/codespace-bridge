@@ -1,5 +1,4 @@
 {
-  "cmd": "which devvit; echo PATH=$PATH; ls ~/.npm-global/bin/ 2>/dev/null | grep devvit || echo 'not in npm-global'; ls /usr/local/bin/ | grep devvit || echo 'not in /usr/local/bin'",
-  "id": "56cf5bc9",
-  "cwd": "/workspaces/Wigglers_Room"
+  "cmd": null,
+  "id": null
 }
