@@ -1,9 +1,5 @@
 {
-  "id": "84d558ae",
-  "ready": true,
-  "exitCode": 0,
-  "stdout": "Updating 62d6023..12b2ae7\nFast-forward\n assets/icon.png | Bin 251136 -> 188350 bytes\n 1 file changed, 0 insertions(+), 0 deletions(-)\n",
-  "stderr": "From https://github.com/Cal-Starfur/Wigglers_Room\n   62d6023..12b2ae7  main       -> origin/main\n",
-  "durationMs": 313,
-  "timedOut": false
+  "id": "54699072",
+  "ready": false,
+  "running": true
 }
