@@ -1,5 +1,9 @@
 {
   "id": "9b3ef677",
-  "ready": false,
-  "running": true
+  "ready": true,
+  "exitCode": 0,
+  "stdout": "Updating a335aa5..8ebd533\nFast-forward\n GAME_ARCHITECTURE.md |  32 ++++++++------\n webroot/game.js      | 122 +++++++++++++++++++--------------------------------\n 2 files changed, 64 insertions(+), 90 deletions(-)\n",
+  "stderr": "From https://github.com/Cal-Starfur/Wigglers_Room\n   a335aa5..8ebd533  main       -> origin/main\n",
+  "durationMs": 342,
+  "timedOut": false
 }
