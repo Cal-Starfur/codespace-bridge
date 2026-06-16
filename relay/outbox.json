@@ -1,5 +1,9 @@
 {
   "id": "091014e3",
-  "ready": false,
-  "running": true
+  "ready": true,
+  "exitCode": 0,
+  "stdout": "Requesting installation details on wigglers-room...\n\u001b[G\u001b[1A\u001b[JRequesting installation details on wigglers-room... \u001b[38;5;104m⣾\u001b[0m\n\u001b[G\u001b[1A\u001b[JRequesting installation details on wigglers-room... Currently on version 0.0.59\nwigglers-room may:\n • Appear in subreddit, post, and comment menu entries, and custom posts.\n • Can create a custom post.\n • Read and write _any_ Reddit data.\n • Read and write _app_ data to Reddit servers.\n • Use unknown permissions.\n • Appear and act as a moderator on subreddits where it's installed.\n • Embed webapps to display rich content.\nInstalling wigglers-room to r/wigglers_room_dev...\n\u001b[G\u001b[1A\u001b[JInstalling wigglers-room to r/wigglers_room_dev... \u001b[38;5;104m⣽\u001b[0m\n\u001b[G\u001b[1A\u001b[JInstalling wigglers-room to r/wigglers_room_dev... Successfully installed version 0.0.60!\n",
+  "stderr": "",
+  "durationMs": 3465,
+  "timedOut": false
 }
