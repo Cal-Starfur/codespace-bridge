@@ -1,1 +1,1 @@
-{"cmd": "ls /home/codespace/nvm/current/bin/devvit* && /home/codespace/nvm/current/bin/devvit commands 2>&1", "id": "c6d7ecf3", "cwd": "/workspaces/Wigglers_Room"}
+{"cmd": "/home/codespace/nvm/current/bin/devvit upload --help 2>&1 | head -50", "id": "3fd202d1", "cwd": "/workspaces/Wigglers_Room"}
