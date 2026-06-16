@@ -1,9 +1,5 @@
 {
-  "id": "4852f047",
-  "ready": true,
-  "exitCode": "ENOENT",
-  "stdout": "",
-  "stderr": "",
-  "durationMs": 2,
-  "timedOut": false
+  "id": "e59af5af",
+  "ready": false,
+  "running": true
 }
