@@ -1,4 +1,6 @@
 {
-  "cmd": null,
-  "id": null
+  "cmd": "base64 -w 0 assets/icon.png",
+  "id": "28129106",
+  "cwd": "/workspaces/Wigglers_Room",
+  "ts": "2026-06-16T23:56:05.817084"
 }
