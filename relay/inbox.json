@@ -1,6 +1,4 @@
 {
-  "cmd": "/home/codespace/nvm/current/bin/devvit install wigglers_room_dev 2>&1",
-  "id": "7ea9b33d",
-  "cwd": "/workspaces/Wigglers_Room",
-  "ts": "2026-06-16T23:17:38.133440"
+  "cmd": null,
+  "id": null
 }
