@@ -1,5 +1,9 @@
 {
   "id": "3fd202d1",
-  "ready": false,
-  "running": true
+  "ready": true,
+  "exitCode": 0,
+  "stdout": "Upload the app to the App Directory. Uploaded apps are only visible to you (the app owner) and can only be installed to a small test subreddit with less than 200 subscribers\n\nUSAGE\n  $ devvit upload [--config <value>] [--version <value> | --bump\n    major|minor|patch|prerelease] [--copy-paste] [-v]\n\nFLAGS\n  -v, --verbose      Enable verbose logging\n  --bump=<option>    Type of version bump (major|minor|patch|prerelease)\n                     <options: major|minor|patch|prerelease>\n  --config=<value>   path to devvit config file\n  --copy-paste       Copy-paste the auth code instead of opening a browser\n  --version=<value>  Explicit version number (e.g: 1.0.1)\n\nDESCRIPTION\n  Upload the app to the App Directory. Uploaded apps are only visible to you\n  (the app owner) and can only be installed to a small test subreddit with less\n  than 200 subscribers\n\n",
+  "stderr": "",
+  "durationMs": 2058,
+  "timedOut": false
 }
