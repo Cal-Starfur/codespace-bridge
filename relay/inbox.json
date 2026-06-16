@@ -1,4 +1,1 @@
-{
-  "cmd": null,
-  "id": null
-}
+{"cmd": "ls /home/codespace/nvm/current/bin/devvit* && /home/codespace/nvm/current/bin/devvit commands 2>&1", "id": "c6d7ecf3", "cwd": "/workspaces/Wigglers_Room"}
