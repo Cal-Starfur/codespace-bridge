@@ -1,9 +1,5 @@
 {
-  "id": "b03c1e5a",
-  "ready": true,
-  "exitCode": 0,
-  "stdout": "Install an app from the App Directory to a subreddit that you moderate. Specify the version you want to install, or default to @latest\n\nUSAGE\n  $ devvit install SUBREDDIT [APPWITHVERSION] [--config <value>]\n\nARGUMENTS\n  SUBREDDIT       Provide the name of the subreddit where you want to install.\n                  The \"r/\" prefix is optional\n  APPWITHVERSION  Provide the name of the app you want to install (defaults to\n                  working directory app) and version (defaults to latest)\n\nFLAGS\n  --config=<value>  path to devvit config file\n\nDESCRIPTION\n  Install an app from the App Directory to a subreddit that you moderate.\n  Specify the version you want to install, or default to @latest\n\nEXAMPLES\n  $ devvit install <subreddit> [app-name][@version]\n\n  $ devvit install r/MyTestSubreddit\n\n  $ devvit install MyOtherTestSubreddit my-app\n\n  $ devvit install r/SomeOtherSubreddit my-app@1.2.3\n\n  $ devvit install r/AnotherSubreddit @1.2.3\n\n",
-  "stderr": "",
-  "durationMs": 1724,
-  "timedOut": false
+  "id": "61079d4a",
+  "ready": false,
+  "running": true
 }
