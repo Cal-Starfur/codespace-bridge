@@ -1,9 +1,5 @@
 {
-  "id": "0f0b7b99",
-  "ready": true,
-  "exitCode": 0,
-  "stdout": "Already up to date.\n",
-  "stderr": "",
-  "durationMs": 148,
-  "timedOut": false
+  "id": "a2c20292",
+  "ready": false,
+  "running": true
 }
