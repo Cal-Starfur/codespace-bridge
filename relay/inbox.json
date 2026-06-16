@@ -1,5 +1,4 @@
 {
-  "cmd": "which devvit || echo NOT FOUND",
-  "id": "f3269fb3",
-  "cwd": "/workspaces/Wigglers_Room"
+  "cmd": null,
+  "id": null
 }
