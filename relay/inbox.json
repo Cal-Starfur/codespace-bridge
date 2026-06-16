@@ -1,4 +1,5 @@
 {
-  "cmd": null,
-  "id": null
+  "cmd": "cd /workspaces/Wigglers_Room && git pull && devvit upload --just-do-it",
+  "id": "e59af5af",
+  "cwd": "/workspaces/Wigglers_Room"
 }
