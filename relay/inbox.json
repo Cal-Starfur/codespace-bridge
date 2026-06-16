@@ -1,5 +1,4 @@
 {
-  "cmd": "/home/codespace/nvm/current/bin/devvit whoami 2>&1 || echo NOT_LOGGED_IN",
-  "id": "f5913a96",
-  "cwd": "/workspaces/Wigglers_Room"
+  "cmd": null,
+  "id": null
 }
