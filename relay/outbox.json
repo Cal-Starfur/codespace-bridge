@@ -1,9 +1,5 @@
 {
-  "id": "63c43ce6",
-  "ready": true,
-  "exitCode": 1,
-  "stdout": "Updating 21d588a..9ddb377\n",
-  "stderr": "From https://github.com/Cal-Starfur/Wigglers_Room\n   5980689..9ddb377  main       -> origin/main\nerror: Your local changes to the following files would be overwritten by merge:\n\tassets/icon.png\nPlease commit your changes or stash them before you merge.\nAborting\n",
-  "durationMs": 197,
-  "timedOut": false
+  "id": "eb2f8e1d",
+  "ready": false,
+  "running": true
 }
