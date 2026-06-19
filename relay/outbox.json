@@ -1,9 +1,5 @@
 {
-  "id": "v-1781889397",
-  "ready": true,
-  "exitCode": 0,
-  "stdout": "/usr/local/share/nvm/versions/node/v24.14.0/lib/node_modules/devvit/bin/devvit.js\n",
-  "stderr": "",
-  "durationMs": 13,
-  "timedOut": false
+  "id": "v-1781889419",
+  "ready": false,
+  "running": true
 }
