@@ -1,5 +1,9 @@
 {
   "id": "v-1781889552",
-  "ready": false,
-  "running": true
+  "ready": true,
+  "exitCode": 0,
+  "stdout": "Reddit's Dev Platform CLI Tool\n\nVERSION\n  @devvit/cli/0.13.2 linux-x64 node-v24.14.0\n\nUSAGE\n  $ devvit [COMMAND]\n\nTOPICS\n  create    Create a new icon set for your project\n  list      List all apps that you have published\n  products  Add a new product to your app\n  settings  List settings for your app. These settings exist at the global\n            app-scope and are available to all instances of your app.\n  update    Update @devvit project dependencies to the currently installed CLI's\n            version\n\nCOMMANDS\n  help       Display help for devvit.\n  init       Initialize a new app\n  install    Install an app from the App Directory to a subreddit that you\n             moderate. Specify the version you want to install, or default to\n             @latest\n  login      Log in to Devvit via reddit.com\n  logout     Log out of Devvit via reddit.com\n  logs       Streams logs for an installation within a specified subreddit\n  metrics    Turn CLI metrics collection on or off\n  new        Initialize a new app\n  playtest   Installs your app to your test subreddit and starts a playtest\n             session where a new version is installed whenever you save changes\n             to your app code, and logs are continuously streamed\n  publish    Creates a new app version, uploads it along with your source for\n             review, and then files a publish request for you app.\n  uninstall  Uninstall an app from the specified subreddit\n  upload     Upload the app to the App Directory. Uploaded apps are only visible\n             to you (the app owner) and can only be installed to a small test\n             subreddit with less than 200 subscribers\n  version    Display version information about the locally installed devvit CLI\n  view       View details about an app version. Specify the version you want, or\n             default to @latest\n  whoami     Display the currently logged in reddit.com user\n\n",
+  "stderr": "",
+  "durationMs": 1755,
+  "timedOut": false
 }
