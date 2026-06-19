@@ -1,4 +1,6 @@
 {
-  "cmd": null,
-  "id": null
+  "cmd": "ls /workspaces/Wigglers_Room/.devvit/ 2>/dev/null || echo no-project-devvit",
+  "id": "probe-1781887916",
+  "cwd": "/workspaces/Wigglers_Room",
+  "ts": "2026-06-19T16:51:56.272628"
 }
