@@ -1,6 +1,6 @@
 {
-  "cmd": "timeout 5 devvit version 2>&1 || echo devvit-version-failed",
-  "id": "probe-1781887883",
+  "cmd": "cat ~/.devvit/session-id 2>/dev/null | head -3",
+  "id": "probe-1781887887",
   "cwd": "/workspaces/Wigglers_Room",
-  "ts": "2026-06-19T16:51:23.536779"
+  "ts": "2026-06-19T16:51:27.450994"
 }
