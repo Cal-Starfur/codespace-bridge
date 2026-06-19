@@ -1,5 +1,9 @@
 {
   "id": "v-1781889386",
-  "ready": false,
-  "running": true
+  "ready": true,
+  "exitCode": 0,
+  "stdout": "/home/codespace/nvm/current/bin/devvit\n",
+  "stderr": "",
+  "durationMs": 5,
+  "timedOut": false
 }
