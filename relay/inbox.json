@@ -1,6 +1,4 @@
 {
-  "cmd": "timeout 8 devvit apps 2>&1",
-  "id": "test-1781888564",
-  "cwd": "/workspaces/Wigglers_Room",
-  "ts": "2026-06-19T17:02:44.868433"
+  "cmd": null,
+  "id": null
 }
