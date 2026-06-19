@@ -1,6 +1,4 @@
 {
-  "cmd": "timeout 10 devvit help 2>&1",
-  "id": "v-1781889552",
-  "cwd": "/workspaces/Wigglers_Room",
-  "ts": "2026-06-19T17:19:12.680211"
+  "cmd": null,
+  "id": null
 }
