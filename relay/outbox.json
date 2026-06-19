@@ -1,5 +1,9 @@
 {
   "id": "v-1781889440",
-  "ready": false,
-  "running": true
+  "ready": true,
+  "exitCode": 0,
+  "stdout": "Logged in as u/AffectionateTrust984\n",
+  "stderr": "",
+  "durationMs": 1908,
+  "timedOut": false
 }
