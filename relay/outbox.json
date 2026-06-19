@@ -1,9 +1,5 @@
 {
-  "id": "debug-ping-1781887707",
-  "ready": true,
-  "exitCode": 0,
-  "stdout": "version: 0.1.0\n",
-  "stderr": "",
-  "durationMs": 7,
-  "timedOut": false
+  "id": "health-ping-1781887761",
+  "ready": false,
+  "running": true
 }
