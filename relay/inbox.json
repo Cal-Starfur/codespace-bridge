@@ -1,6 +1,6 @@
 {
-  "cmd": "timeout 8 devvit version 2>&1",
-  "id": "test-1781888645",
+  "cmd": "which devvit && devvit --version 2>&1",
+  "id": "test-1781888668",
   "cwd": "/workspaces/Wigglers_Room",
-  "ts": "2026-06-19T17:04:05.148218"
+  "ts": "2026-06-19T17:04:28.045124"
 }
