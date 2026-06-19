@@ -1,6 +1,6 @@
 {
-  "cmd": "timeout 8 npx devvit@latest list 2>&1",
-  "id": "test-1781888621",
+  "cmd": "timeout 8 devvit version 2>&1",
+  "id": "test-1781888645",
   "cwd": "/workspaces/Wigglers_Room",
-  "ts": "2026-06-19T17:03:41.451045"
+  "ts": "2026-06-19T17:04:05.148218"
 }
