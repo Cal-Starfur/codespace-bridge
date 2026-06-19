@@ -1,5 +1,9 @@
 {
   "id": "v-1781889426",
-  "ready": false,
-  "running": true
+  "ready": true,
+  "exitCode": 0,
+  "stdout": "LICENSE\nREADME.md\nbin\ndist\nnode_modules\npackage.json\n",
+  "stderr": "",
+  "durationMs": 5,
+  "timedOut": false
 }
