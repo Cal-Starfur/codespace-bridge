@@ -1,4 +1,6 @@
 {
-  "cmd": null,
-  "id": null
+  "cmd": "readlink -f $(which devvit)",
+  "id": "v-1781889397",
+  "cwd": "/workspaces/Wigglers_Room",
+  "ts": "2026-06-19T17:16:37.202573"
 }
