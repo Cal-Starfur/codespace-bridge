@@ -1,5 +1,9 @@
 {
   "id": "v-1781889475",
-  "ready": false,
-  "running": true
+  "ready": true,
+  "exitCode": 0,
+  "stdout": " ›   Error: Nonexistent flag: --app\n ›   See more help with --help\n",
+  "stderr": "",
+  "durationMs": 1755,
+  "timedOut": false
 }
