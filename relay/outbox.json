@@ -1,9 +1,5 @@
 {
-  "id": "v-1781889468",
-  "ready": true,
-  "exitCode": 2,
-  "stdout": " ›   Error: command list not found\n",
-  "stderr": "",
-  "durationMs": 1834,
-  "timedOut": false
+  "id": "v-1781889475",
+  "ready": false,
+  "running": true
 }
