@@ -1,9 +1,5 @@
 {
-  "id": "v-1781889430",
-  "ready": true,
-  "exitCode": 0,
-  "stdout": "@devvit/cli/0.13.2 linux-x64 node-v24.14.0\ndone\n",
-  "stderr": "",
-  "durationMs": 3006,
-  "timedOut": false
+  "id": "v-1781889440",
+  "ready": false,
+  "running": true
 }
