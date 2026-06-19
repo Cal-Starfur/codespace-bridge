@@ -1,6 +1,6 @@
 {
-  "cmd": "devvit version",
-  "id": "probe-1781887829",
+  "cmd": "devvit whoami 2>&1 | head -20",
+  "id": "probe-1781887836",
   "cwd": "/workspaces/Wigglers_Room",
-  "ts": "2026-06-19T16:50:29.831743"
+  "ts": "2026-06-19T16:50:36.970808"
 }
