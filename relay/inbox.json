@@ -1,6 +1,6 @@
 {
-  "cmd": "cat ~/.devvit/token 2>/dev/null | wc -c",
-  "id": "v-1781889826",
+  "cmd": "timeout 15 devvit build 2>&1 | head -10",
+  "id": "v-1781889858",
   "cwd": "/workspaces/Wigglers_Room",
-  "ts": "2026-06-19T17:23:46.015752"
+  "ts": "2026-06-19T17:24:18.019321"
 }
