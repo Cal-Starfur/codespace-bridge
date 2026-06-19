@@ -1,6 +1,4 @@
 {
-  "cmd": "cat ~/.config/devvit/config.json 2>/dev/null || echo no-config",
-  "id": "probe-1781887859",
-  "cwd": "/workspaces/Wigglers_Room",
-  "ts": "2026-06-19T16:50:59.782139"
+  "cmd": null,
+  "id": null
 }
