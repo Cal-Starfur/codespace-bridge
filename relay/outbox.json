@@ -1,5 +1,9 @@
 {
   "id": "test-1781888546",
-  "ready": false,
-  "running": true
+  "ready": true,
+  "exitCode": 0,
+  "stdout": "Reddit's Dev Platform CLI Tool\n\nVERSION\n  @devvit/cli/0.13.2 linux-x64 node-v24.14.0\n\nUSAGE\n  $ devvit [COMMAND]\n\nCOMMANDS\n  create icons   Create a new icon set for your project\n  help           Display help for devvit.\n  init           Initialize a new app\n  install        Install an app from the App Directory to a subreddit that you\n                 moderate. Specify the version you want to install, or default\n                 to @latest\n  list apps      List all apps that you have published\n  list installs  List all apps currently installed in the specified subreddit.\n                 If no subreddit is given, defaults to listing all apps\n                 installed by you\n  login          Log in to Devvit via reddit.com\n  logout         Log out of Devvit via reddit.com\n  logs           Streams logs for an installation within a specified subreddit\n  metrics        Turn CLI metrics collection on or off\n  new            Initialize a new app\n  playtest       Installs your app to your test subreddit and starts a playtest\n                 session where a new version is installed whenever you save\n                 changes to your app code, and logs are continuously streamed\n  products add   Add a new product to your app\n  publish        Creates a new app version, uploads it along with your source\n                 for review, and then files a publish request for you app.\n  settings list  List settings for your app. These settings exist at the global\n                 app-scope and are available to all instances of your app.\n  settings set   Create and update settings for your app. These settings will be\n                 added at the global app-scope.\n  uninstall      Uninstall an app from the specified subreddit\n  update app     Update @devvit project dependencies to the currently installed\n                 CLI's version\n  upload         Upload the app to the App Directory. Uploaded apps are only\n                 visible to you (the app owner) and can only be installed to a\n                 small test subreddit with less than 200 subscribers\n",
+  "stderr": "",
+  "durationMs": 1684,
+  "timedOut": false
 }
