@@ -1,4 +1,6 @@
 {
-  "cmd": null,
-  "id": null
+  "cmd": "devvit version",
+  "id": "probe-1781887829",
+  "cwd": "/workspaces/Wigglers_Room",
+  "ts": "2026-06-19T16:50:29.831743"
 }
