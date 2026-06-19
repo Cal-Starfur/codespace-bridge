@@ -1,6 +1,6 @@
 {
-  "cmd": "node $(which devvit) --version 2>&1",
-  "id": "test-1781888690",
+  "cmd": "cat $(which devvit) | head -5 2>&1",
+  "id": "test-1781888713",
   "cwd": "/workspaces/Wigglers_Room",
-  "ts": "2026-06-19T17:04:50.728548"
+  "ts": "2026-06-19T17:05:13.417731"
 }
