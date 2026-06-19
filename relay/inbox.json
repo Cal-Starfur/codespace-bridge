@@ -1,4 +1,6 @@
 {
-  "cmd": null,
-  "id": null
+  "cmd": "timeout 15 devvit logs --app wigglers-room 2>&1 | head -20",
+  "id": "v-1781889475",
+  "cwd": "/workspaces/Wigglers_Room",
+  "ts": "2026-06-19T17:17:55.253148"
 }
