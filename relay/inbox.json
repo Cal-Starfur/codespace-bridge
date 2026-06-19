@@ -1,6 +1,4 @@
 {
-  "cmd": "cat /workspaces/Wigglers_Room/devvit.yaml | grep \"^version:\"",
-  "id": "health-ping-1781887054",
-  "cwd": "/workspaces/Wigglers_Room",
-  "ts": "2026-06-19T16:37:34.243056"
+  "cmd": null,
+  "id": null
 }
