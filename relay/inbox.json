@@ -1,4 +1,6 @@
 {
-  "cmd": null,
-  "id": null
+  "cmd": "timeout 5 devvit version 2>&1 || echo devvit-version-failed",
+  "id": "probe-1781887883",
+  "cwd": "/workspaces/Wigglers_Room",
+  "ts": "2026-06-19T16:51:23.536779"
 }
