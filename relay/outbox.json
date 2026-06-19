@@ -1,5 +1,9 @@
 {
   "id": "health-ping-1781906166",
-  "ready": false,
-  "running": true
+  "ready": true,
+  "exitCode": 0,
+  "stdout": "bridge-ok\n",
+  "stderr": "",
+  "durationMs": 9,
+  "timedOut": false
 }
