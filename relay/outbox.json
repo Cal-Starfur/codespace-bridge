@@ -1,9 +1,5 @@
 {
-  "id": "v-1781889390",
-  "ready": true,
-  "exitCode": 0,
-  "stdout": "lrwxrwxrwx 1 codespace nvm 40 Jun  3 16:32 /home/codespace/nvm/current/bin/devvit -> ../lib/node_modules/devvit/bin/devvit.js\n",
-  "stderr": "",
-  "durationMs": 9,
-  "timedOut": false
+  "id": "v-1781889397",
+  "ready": false,
+  "running": true
 }
