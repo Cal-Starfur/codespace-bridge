@@ -1,5 +1,9 @@
 {
   "id": "probe-1781887866",
-  "ready": false,
-  "running": true
+  "ready": true,
+  "exitCode": 0,
+  "stdout": "session-id\ntoken\n",
+  "stderr": "",
+  "durationMs": 6,
+  "timedOut": false
 }
