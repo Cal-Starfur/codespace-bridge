@@ -1,9 +1,5 @@
 {
-  "id": "v-1781889515",
-  "ready": true,
-  "exitCode": 127,
-  "stdout": " ›   Warning: get wigglers-room is not a devvit command.\nDid you mean settings list? [y/n]: \n ›   Error: Run devvit help for a list of available commands.\n",
-  "stderr": "",
-  "durationMs": 11642,
-  "timedOut": false
+  "id": "v-1781889545",
+  "ready": false,
+  "running": true
 }
