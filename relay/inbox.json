@@ -1,6 +1,6 @@
 {
-  "cmd": "find ~/.devvit -type f 2>/dev/null",
-  "id": "v-1781889794",
+  "cmd": "cat ~/.devvit/token 2>/dev/null | wc -c",
+  "id": "v-1781889826",
   "cwd": "/workspaces/Wigglers_Room",
-  "ts": "2026-06-19T17:23:14.041710"
+  "ts": "2026-06-19T17:23:46.015752"
 }
