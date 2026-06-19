@@ -1,6 +1,6 @@
 {
-  "cmd": "timeout 10 devvit apps 2>&1",
-  "id": "v-1781889600",
+  "cmd": "timeout 10 devvit publish 2>&1 | head -5",
+  "id": "v-1781889637",
   "cwd": "/workspaces/Wigglers_Room",
-  "ts": "2026-06-19T17:20:00.901237"
+  "ts": "2026-06-19T17:20:37.437566"
 }
