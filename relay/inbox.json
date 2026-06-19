@@ -1,6 +1,6 @@
 {
-  "cmd": "cat /home/codespace/nvm/current/bin/devvit | head -3",
-  "id": "test-1781888778",
+  "cmd": "cat /home/codespace/nvm/current/lib/node_modules/devvit/package.json | python3 -c \"import sys,json; d=json.load(sys.stdin); print(d.get('version','?'))\"",
+  "id": "test-1781888801",
   "cwd": "/workspaces/Wigglers_Room",
-  "ts": "2026-06-19T17:06:18.854952"
+  "ts": "2026-06-19T17:06:41.608068"
 }
