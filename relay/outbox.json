@@ -1,9 +1,5 @@
 {
-  "id": "test-1781888587",
-  "ready": true,
-  "exitCode": 124,
-  "stdout": " ›   Warning: info is not a devvit command.\nDid you mean init? [y/n]: ",
-  "stderr": "",
-  "durationMs": 8023,
-  "timedOut": false
+  "id": "test-1781888614",
+  "ready": false,
+  "running": true
 }
