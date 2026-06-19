@@ -1,6 +1,4 @@
 {
-  "cmd": "cat /workspaces/Wigglers_Room/devvit.yaml | grep \"^version:\"",
-  "id": "debug-ping-1781887707",
-  "cwd": "/workspaces/Wigglers_Room",
-  "ts": "2026-06-19T16:48:27.856450"
+  "cmd": null,
+  "id": null
 }
