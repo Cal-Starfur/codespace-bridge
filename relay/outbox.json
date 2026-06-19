@@ -1,9 +1,5 @@
 {
-  "id": "test-1781888614",
-  "ready": true,
-  "exitCode": 0,
-  "stdout": " ›   Error: Missing 1 required arg:\n ›   subreddit  Provide the subreddit name. The \"r/\" prefix is optional\n ›   See more help with --help\n",
-  "stderr": "",
-  "durationMs": 1815,
-  "timedOut": false
+  "id": "p-1781888992",
+  "ready": false,
+  "running": true
 }
