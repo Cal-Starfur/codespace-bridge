@@ -1,6 +1,6 @@
 {
-  "cmd": "ls -la $(which devvit)",
-  "id": "test-1781888756",
+  "cmd": "cat /home/codespace/nvm/current/bin/devvit | head -3",
+  "id": "test-1781888778",
   "cwd": "/workspaces/Wigglers_Room",
-  "ts": "2026-06-19T17:05:56.129635"
+  "ts": "2026-06-19T17:06:18.854952"
 }
