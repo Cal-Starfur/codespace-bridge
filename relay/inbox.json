@@ -1,6 +1,6 @@
 {
-  "cmd": "cat $(which devvit) | head -5 2>&1",
-  "id": "test-1781888713",
+  "cmd": "ls -la $(which devvit)",
+  "id": "test-1781888756",
   "cwd": "/workspaces/Wigglers_Room",
-  "ts": "2026-06-19T17:05:13.417731"
+  "ts": "2026-06-19T17:05:56.129635"
 }
