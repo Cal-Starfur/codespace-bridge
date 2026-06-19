@@ -152,51 +152,87 @@ async function main() {
   while (true) {
     await new Promise(r => setTimeout(r, POLL_MS));
 
-    let inbox, inboxSha;
     try {
-      ({ content: inbox, sha: inboxSha } = await readRepoFile(INBOX_PATH));
+      let inbox, inboxSha;
+      try {
+        ({ content: inbox, sha: inboxSha } = await readRepoFile(INBOX_PATH));
+      } catch (e) {
+        console.error(`  poll error: ${e.message}`);
+        continue;
+      }
+
+      if (!inbox.cmd || inbox.id === lastId) continue;
+
+      lastId = inbox.id;
+      const cmd = inbox.cmd.trim();
+      const cwd = inbox.cwd || `/workspaces/Wigglers_Room`;
+
+      console.log(`  → [${inbox.id}] ${cmd}`);
+
+      if (BLOCKED.some(p => p.test(cmd))) {
+        console.log('  ✗ BLOCKED');
+        try {
+          const { sha: outSha } = await readRepoFile(OUTBOX_PATH);
+          await writeRepoFile(OUTBOX_PATH, {
+            id: inbox.id, ready: true,
+            error: 'Blocked by safety rules.',
+            exitCode: -1, stdout: '', stderr: '',
+          }, outSha, `bridge3: blocked [${inbox.id}]`);
+          await writeRepoFile(INBOX_PATH, { cmd: null, id: null }, inboxSha, `bridge3: clear inbox`);
+        } catch (e) {
+          console.error(`  write error (blocked): ${e.message} — retrying next poll`);
+        }
+        continue;
+      }
+
+      // Mark running — fetch fresh SHA, retry once on 409
+      try {
+        const { sha: outSha1 } = await readRepoFile(OUTBOX_PATH);
+        await writeRepoFile(OUTBOX_PATH, { id: inbox.id, ready: false, running: true },
+          outSha1, `bridge3: running [${inbox.id}]`);
+      } catch (e) {
+        console.error(`  write error (mark running): ${e.message} — continuing anyway`);
+      }
+
+      const result = await runCommand(cmd, cwd);
+      console.log(`  ✓ exit ${result.exitCode} (${result.durationMs}ms)`);
+
+      // Write result — retry once on 409 by re-fetching SHA
+      let written = false;
+      for (let attempt = 0; attempt < 3 && !written; attempt++) {
+        try {
+          const { sha: outSha2 } = await readRepoFile(OUTBOX_PATH);
+          await writeRepoFile(OUTBOX_PATH, { id: inbox.id, ready: true, ...result },
+            outSha2, `bridge3: result [${inbox.id}]`);
+          written = true;
+        } catch (e) {
+          console.error(`  write error (result attempt ${attempt + 1}): ${e.message}`);
+          await new Promise(r => setTimeout(r, 1000));
+        }
+      }
+      if (!written) console.error(`  gave up writing result for [${inbox.id}] — moving on`);
+
+      // Clear inbox — retry on 409
+      for (let attempt = 0; attempt < 3; attempt++) {
+        try {
+          const { sha: freshInboxSha } = await readRepoFile(INBOX_PATH);
+          await writeRepoFile(INBOX_PATH, { cmd: null, id: null },
+            freshInboxSha, `bridge3: clear inbox [${inbox.id}]`);
+          break;
+        } catch (e) {
+          console.error(`  write error (clear inbox attempt ${attempt + 1}): ${e.message}`);
+          await new Promise(r => setTimeout(r, 1000));
+        }
+      }
+
     } catch (e) {
-      console.error(`  poll error: ${e.message}`);
-      continue;
+      // Catch-all — log and keep polling. Never crash.
+      console.error(`  ⚠ loop error (recovering): ${e.message}`);
     }
-
-    if (!inbox.cmd || inbox.id === lastId) continue;
-
-    lastId = inbox.id;
-    const cmd = inbox.cmd.trim();
-    const cwd = inbox.cwd || `/workspaces/Wigglers_Room`;
-
-    console.log(`  → [${inbox.id}] ${cmd}`);
-
-    if (BLOCKED.some(p => p.test(cmd))) {
-      console.log('  ✗ BLOCKED');
-      const { sha: outSha } = await readRepoFile(OUTBOX_PATH);
-      await writeRepoFile(OUTBOX_PATH, {
-        id: inbox.id, ready: true,
-        error: 'Blocked by safety rules.',
-        exitCode: -1, stdout: '', stderr: '',
-      }, outSha, `bridge3: blocked [${inbox.id}]`);
-      await writeRepoFile(INBOX_PATH, { cmd: null, id: null }, inboxSha, `bridge3: clear inbox`);
-      continue;
-    }
-
-    // Mark running — always fetch fresh SHA immediately before writing
-    const { sha: outSha1 } = await readRepoFile(OUTBOX_PATH);
-    await writeRepoFile(OUTBOX_PATH, { id: inbox.id, ready: false, running: true },
-      outSha1, `bridge3: running [${inbox.id}]`);
-
-    const result = await runCommand(cmd, cwd);
-    console.log(`  ✓ exit ${result.exitCode} (${result.durationMs}ms)`);
-
-    // Always fetch fresh SHAs right before each write to avoid 409 conflicts
-    const { sha: outSha2 } = await readRepoFile(OUTBOX_PATH);
-    await writeRepoFile(OUTBOX_PATH, { id: inbox.id, ready: true, ...result },
-      outSha2, `bridge3: result [${inbox.id}]`);
-
-    const { sha: freshInboxSha } = await readRepoFile(INBOX_PATH);
-    await writeRepoFile(INBOX_PATH, { cmd: null, id: null },
-      freshInboxSha, `bridge3: clear inbox [${inbox.id}]`);
   }
 }
 
-main().catch(e => { console.error('Fatal:', e); process.exit(1); });
+main().catch(e => {
+  console.error('Fatal startup error:', e);
+  process.exit(1);
+});
