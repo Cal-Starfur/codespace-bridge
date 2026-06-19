@@ -1,9 +1,5 @@
 {
-  "id": "probe-1781887920",
-  "ready": true,
-  "exitCode": 0,
-  "stdout": "",
-  "stderr": "",
-  "durationMs": 8,
-  "timedOut": false
+  "id": "probe-1781887924",
+  "ready": false,
+  "running": true
 }
