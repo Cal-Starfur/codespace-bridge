@@ -1,4 +1,6 @@
 {
-  "cmd": null,
-  "id": null
+  "cmd": "devvit upload --just-do-it 2>&1",
+  "id": "upload-watch-1781888121",
+  "cwd": "/workspaces/Wigglers_Room",
+  "ts": "2026-06-19T16:55:21.741839"
 }
