@@ -1,6 +1,4 @@
 {
-  "cmd": "cd /workspaces/Wigglers_Room && /home/codespace/nvm/current/bin/devvit upload --just-do-it && /home/codespace/nvm/current/bin/devvit install wigglers_room_dev 2>&1",
-  "id": "5d378a13",
-  "cwd": "/workspaces/Wigglers_Room",
-  "ts": "2026-06-19T18:19:53.596545"
+  "cmd": null,
+  "id": null
 }
