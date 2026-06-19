@@ -1,6 +1,6 @@
 {
-  "cmd": "ls /workspaces/Wigglers_Room/webroot/ 2>/dev/null",
-  "id": "v-1781889983",
+  "cmd": "find /workspaces/Wigglers_Room -name \"*.json\" -not -path \"*/node_modules/*\" | head -10",
+  "id": "v-1781890012",
   "cwd": "/workspaces/Wigglers_Room",
-  "ts": "2026-06-19T17:26:23.464443"
+  "ts": "2026-06-19T17:26:52.448377"
 }
