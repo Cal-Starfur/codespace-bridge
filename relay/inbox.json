@@ -1,6 +1,4 @@
 {
-  "cmd": "cat node_modules/@devvit/public-api/package.json | python3 -c \"import sys,json; print(json.load(sys.stdin).get('version','not-found'))\"",
-  "id": "probe-1781887971",
-  "cwd": "/workspaces/Wigglers_Room",
-  "ts": "2026-06-19T16:52:51.935544"
+  "cmd": null,
+  "id": null
 }
