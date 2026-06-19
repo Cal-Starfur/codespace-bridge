@@ -1,6 +1,4 @@
 {
-  "cmd": "cat /usr/local/share/nvm/versions/node/v24.14.0/lib/node_modules/devvit/package.json | python3 -c \"import sys,json; d=json.load(sys.stdin); print(d['version'])\"",
-  "id": "v-1781889419",
-  "cwd": "/workspaces/Wigglers_Room",
-  "ts": "2026-06-19T17:16:59.273874"
+  "cmd": null,
+  "id": null
 }
