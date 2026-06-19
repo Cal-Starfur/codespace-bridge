@@ -1,9 +1,5 @@
 {
-  "id": "q-1781889090",
-  "ready": true,
-  "exitCode": 0,
-  "stdout": "devvit\n",
-  "stderr": "",
-  "durationMs": 12,
-  "timedOut": false
+  "id": "v-1781889378",
+  "ready": false,
+  "running": true
 }
