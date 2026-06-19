@@ -1,9 +1,5 @@
 {
-  "id": "v-1781889419",
-  "ready": true,
-  "exitCode": 0,
-  "stdout": "0.13.2\n",
-  "stderr": "",
-  "durationMs": 34,
-  "timedOut": false
+  "id": "v-1781889426",
+  "ready": false,
+  "running": true
 }
