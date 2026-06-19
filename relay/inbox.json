@@ -1,4 +1,6 @@
 {
-  "cmd": null,
-  "id": null
+  "cmd": "cat package.json | python3 -c \"import sys,json; d=json.load(sys.stdin); print(d.get('version','?'))\"",
+  "id": "probe-1781887950",
+  "cwd": "/workspaces/Wigglers_Room",
+  "ts": "2026-06-19T16:52:30.431156"
 }
