@@ -1,6 +1,6 @@
 {
-  "cmd": "timeout 15 devvit list --help 2>&1",
-  "id": "v-1781889762",
+  "cmd": "find ~/.devvit -type f 2>/dev/null",
+  "id": "v-1781889794",
   "cwd": "/workspaces/Wigglers_Room",
-  "ts": "2026-06-19T17:22:42.132468"
+  "ts": "2026-06-19T17:23:14.041710"
 }
