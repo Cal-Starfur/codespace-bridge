@@ -1,9 +1,5 @@
 {
-  "id": "health-ping-1781887054",
-  "ready": true,
-  "exitCode": 0,
-  "stdout": "version: 0.1.0\n",
-  "stderr": "",
-  "durationMs": 70,
-  "timedOut": false
+  "id": "health-ping-1781887685",
+  "ready": false,
+  "running": true
 }
