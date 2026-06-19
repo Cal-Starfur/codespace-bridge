@@ -1,9 +1,5 @@
 {
-  "id": "probe-1781887971",
-  "ready": true,
-  "exitCode": 0,
-  "stdout": "0.11.19\n",
-  "stderr": "",
-  "durationMs": 66,
-  "timedOut": false
+  "id": "upload-watch-1781888121",
+  "ready": false,
+  "running": true
 }
