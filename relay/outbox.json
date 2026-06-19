@@ -1,9 +1,5 @@
 {
-  "id": "v-1781890012",
-  "ready": true,
-  "exitCode": 0,
-  "stdout": "/workspaces/Wigglers_Room/package.json\n/workspaces/Wigglers_Room/package-lock.json\n/workspaces/Wigglers_Room/tsconfig.json\n",
-  "stderr": "",
-  "durationMs": 127,
-  "timedOut": false
+  "id": "v-1781890143",
+  "ready": false,
+  "running": true
 }
