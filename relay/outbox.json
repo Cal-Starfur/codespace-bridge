@@ -1,5 +1,9 @@
 {
   "id": "probe-1781887916",
-  "ready": false,
-  "running": true
+  "ready": true,
+  "exitCode": 0,
+  "stdout": "no-project-devvit\n",
+  "stderr": "",
+  "durationMs": 6,
+  "timedOut": false
 }
