@@ -1,6 +1,4 @@
 {
-  "cmd": "echo bridge-ok",
-  "id": "health-ping-1781906166",
-  "cwd": "/workspaces/Wigglers_Room",
-  "ts": "2026-06-19T21:56:06.839016"
+  "cmd": null,
+  "id": null
 }
