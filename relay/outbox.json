@@ -1,9 +1,5 @@
 {
-  "id": "probe-1781887946",
-  "ready": true,
-  "exitCode": 0,
-  "stdout": "9ff242d icon to main\n1dd642e V21: Fix main.tsx — remove cache header that was accidentally committed\n4b0f7a1 V21: Fix pool gradient and saturation glow width — extend to full bin edge (was 4px short each side)\n44d466a V21: ISS-13 Bug C — remove pooled from KV_WORLD worldData write\ne11d4ec V21: Remove rain — saturation now driven by food drops only. Strip precip from weather struct, seasonal baselines, events, tickWeather, HUD. Delete getEvapRate dead code.\n",
-  "stderr": "",
-  "durationMs": 6,
-  "timedOut": false
+  "id": "probe-1781887950",
+  "ready": false,
+  "running": true
 }
