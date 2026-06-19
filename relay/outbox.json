@@ -1,9 +1,5 @@
 {
-  "id": "v-1781890143",
-  "ready": true,
-  "exitCode": 0,
-  "stdout": "name: wigglers-room\nversion: 0.1.0\nhomepage: https://reddit.com\ndescription: A persistent multiplayer worm-bin composting simulation. Control an earthworm living inside a shared compost bin directly inside a Reddit post.\n\npermissions:\n  - reddit_api\n  - redis\n  - kvStore\n  - realtime\n\nwebroot: webroot\nassets: assets\n",
-  "stderr": "",
-  "durationMs": 7,
-  "timedOut": false
+  "id": "health-ping-1781891028",
+  "ready": false,
+  "running": true
 }
