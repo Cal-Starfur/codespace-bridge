@@ -1,6 +1,6 @@
 {
-  "cmd": "timeout 15 devvit build 2>&1 | head -10",
-  "id": "v-1781889858",
+  "cmd": "cat /workspaces/Wigglers_Room/devvit.yaml",
+  "id": "v-1781889906",
   "cwd": "/workspaces/Wigglers_Room",
-  "ts": "2026-06-19T17:24:18.019321"
+  "ts": "2026-06-19T17:25:06.221197"
 }
