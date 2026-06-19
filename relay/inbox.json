@@ -1,6 +1,6 @@
 {
-  "cmd": "echo bridge-ok",
-  "id": "health-ping-1781886871",
+  "cmd": "cat /workspaces/Wigglers_Room/devvit.yaml | grep \"^version:\"",
+  "id": "health-ping-1781887054",
   "cwd": "/workspaces/Wigglers_Room",
-  "ts": "2026-06-19T16:34:31.147601"
+  "ts": "2026-06-19T16:37:34.243056"
 }
