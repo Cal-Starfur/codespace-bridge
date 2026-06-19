@@ -1,6 +1,6 @@
 {
-  "cmd": "timeout 8 devvit info 2>&1",
-  "id": "test-1781888587",
+  "cmd": "timeout 8 devvit status 2>&1",
+  "id": "test-1781888591",
   "cwd": "/workspaces/Wigglers_Room",
-  "ts": "2026-06-19T17:03:07.703868"
+  "ts": "2026-06-19T17:03:11.597147"
 }
