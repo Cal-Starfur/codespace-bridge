@@ -1,6 +1,6 @@
 {
-  "cmd": "cat /workspaces/Wigglers_Room/devvit.yaml",
-  "id": "v-1781889906",
+  "cmd": "ls /workspaces/Wigglers_Room/",
+  "id": "v-1781889931",
   "cwd": "/workspaces/Wigglers_Room",
-  "ts": "2026-06-19T17:25:06.221197"
+  "ts": "2026-06-19T17:25:31.934983"
 }
