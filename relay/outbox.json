@@ -1,5 +1,9 @@
 {
   "id": "c347d4ed",
-  "ready": false,
-  "running": true
+  "ready": true,
+  "exitCode": 0,
+  "stdout": "BRIDGE_OK\n",
+  "stderr": "",
+  "durationMs": 3,
+  "timedOut": false
 }
