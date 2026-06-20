@@ -1,9 +1,5 @@
 {
-  "id": "4740208f",
-  "ready": true,
-  "exitCode": 0,
-  "stdout": "",
-  "stderr": "From https://github.com/Cal-Starfur/Wigglers_Room\n   74ecb72..8ce6daf  main       -> origin/main\nRebasing (1/1)\rSuccessfully rebased and updated refs/heads/main.\n",
-  "durationMs": 2422,
-  "timedOut": false
+  "id": "078df0c9",
+  "ready": false,
+  "running": true
 }
