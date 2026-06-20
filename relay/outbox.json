@@ -2,8 +2,8 @@
   "id": "dbfdf6ae",
   "ready": true,
   "exitCode": 0,
-  "stdout": "",
-  "stderr": "From https://github.com/Cal-Starfur/Wigglers_Room\n   25093f9..5af0fa6  main       -> origin/main\nRebasing (1/1)\rSuccessfully rebased and updated refs/heads/main.\n",
-  "durationMs": 331,
+  "stdout": "Current branch main is up to date.\n",
+  "stderr": "",
+  "durationMs": 129,
   "timedOut": false
 }
