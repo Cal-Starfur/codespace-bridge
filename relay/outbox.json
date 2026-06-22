@@ -1,9 +1,5 @@
 {
-  "id": "a448387e",
-  "ready": true,
-  "exitCode": 0,
-  "stdout": "From https://github.com/Cal-Starfur/Wigglers_Room\n * branch            main       -> FETCH_HEAD\n   39b54a5..3db1a2d  main       -> origin/main\nHEAD is now at 3db1a2d ISS-18: fix self-ghost — defer requestPresence until username known; retroactive prune on setUsername/setSession\n",
-  "stderr": "",
-  "durationMs": 1100,
-  "timedOut": false
+  "id": "403d9181",
+  "ready": false,
+  "running": true
 }
