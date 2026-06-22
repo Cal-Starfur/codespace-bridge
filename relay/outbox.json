@@ -1,9 +1,5 @@
 {
-  "id": "5d3b2811",
-  "ready": true,
-  "exitCode": 0,
-  "stdout": "From https://github.com/Cal-Starfur/Wigglers_Room\n * branch            main       -> FETCH_HEAD\nHEAD is now at 6cdd3a9 FEAT-2: move readyHandled to useState — context object is fresh each render, state persists\n",
-  "stderr": "",
-  "durationMs": 139,
-  "timedOut": false
+  "id": "e8d91936",
+  "ready": false,
+  "running": true
 }
