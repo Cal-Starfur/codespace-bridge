@@ -1,9 +1,5 @@
 {
-  "id": "f8410d2d",
-  "ready": true,
-  "exitCode": 0,
-  "stdout": "39b54a5 ISS-18: send worldUpdate after spawnScraps() to prime KV_WORLD on first join\n21bf577 ISS-18: send setWorldState before setSession — world globals ready when spawnScraps() runs\na399017 ISS-18: update header S24, mark KV_WORLD authoritative\n",
-  "stderr": "",
-  "durationMs": 6,
-  "timedOut": false
+  "id": "34d49093",
+  "ready": false,
+  "running": true
 }
