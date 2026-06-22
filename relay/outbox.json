@@ -1,9 +1,9 @@
 {
   "id": "a448387e",
   "ready": true,
-  "exitCode": 1,
-  "stdout": "error: cannot lock ref 'refs/remotes/origin/main': is at 3db1a2d7908cfb1306af44aa5f4958bf96339e64 but expected 39b54a5e0a32d321dfdccd9b8866beb06b86e09e\nFrom https://github.com/Cal-Starfur/Wigglers_Room\n * branch            main       -> FETCH_HEAD\n ! 39b54a5..3db1a2d  main       -> origin/main  (unable to update local ref)\n",
+  "exitCode": 0,
+  "stdout": "From https://github.com/Cal-Starfur/Wigglers_Room\n * branch            main       -> FETCH_HEAD\n   39b54a5..3db1a2d  main       -> origin/main\nHEAD is now at 3db1a2d ISS-18: fix self-ghost — defer requestPresence until username known; retroactive prune on setUsername/setSession\n",
   "stderr": "",
-  "durationMs": 1379,
+  "durationMs": 1100,
   "timedOut": false
 }
