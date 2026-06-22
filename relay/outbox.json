@@ -1,9 +1,5 @@
 {
-  "id": "faa50aaa",
-  "ready": true,
-  "exitCode": 0,
-  "stdout": "",
-  "stderr": "",
-  "durationMs": 45275,
-  "timedOut": false
+  "id": "e7570c29",
+  "ready": false,
+  "running": true
 }
