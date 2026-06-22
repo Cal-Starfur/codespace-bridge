@@ -1,4 +1,6 @@
 {
-  "cmd": null,
-  "id": null
+  "cmd": "which devvit || find /home /usr/local -name devvit 2>/dev/null | head -5",
+  "id": "7e49585e",
+  "cwd": "/workspaces/Wigglers_Room",
+  "ts": "2026-06-22T16:25:51.140750"
 }
