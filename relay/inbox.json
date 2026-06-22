@@ -1,4 +1,6 @@
 {
-  "cmd": null,
-  "id": null
+  "cmd": "/home/codespace/.npm/_npx/a2956ede7896e48e/node_modules/.bin/devvit upload --just-do-it 2>&1",
+  "id": "e8d91936",
+  "cwd": "/workspaces/Wigglers_Room",
+  "ts": "2026-06-22T17:02:17.821464"
 }
