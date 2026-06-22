@@ -4,6 +4,6 @@
   "exitCode": 2,
   "stdout": "Unknown command: \"bin\"\n\nTo see a list of supported npm commands, run:\n  npm help\n---\n",
   "stderr": "",
-  "durationMs": 1226,
+  "durationMs": 969,
   "timedOut": false
 }
