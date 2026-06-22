@@ -1,5 +1,9 @@
 {
   "id": "7e49585e",
-  "ready": false,
-  "running": true
+  "ready": true,
+  "exitCode": 0,
+  "stdout": "/home/codespace/.npm/_npx/a2956ede7896e48e/node_modules/devvit\n/home/codespace/.npm/_npx/a2956ede7896e48e/node_modules/.bin/devvit\n/home/codespace/.npm/_npx/a2956ede7896e48e/node_modules/@devvit/protos/schema/.snootobuf/deps/reddit/devvit\n/home/codespace/.npm/_npx/a2956ede7896e48e/node_modules/@devvit/protos/schema/.snootobuf/deps/devvit\n/home/codespace/.npm/_npx/a2956ede7896e48e/node_modules/@devvit/protos/schema/devvit\n",
+  "stderr": "",
+  "durationMs": 2652,
+  "timedOut": false
 }
