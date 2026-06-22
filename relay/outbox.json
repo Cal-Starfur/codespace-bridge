@@ -1,5 +1,9 @@
 {
   "id": "521bce92",
-  "ready": false,
-  "running": true
+  "ready": true,
+  "exitCode": 0,
+  "stdout": "Current branch main is up to date.\n",
+  "stderr": "",
+  "durationMs": 180,
+  "timedOut": false
 }
