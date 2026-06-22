@@ -2,8 +2,8 @@
   "id": "5d3b2811",
   "ready": true,
   "exitCode": 0,
-  "stdout": "From https://github.com/Cal-Starfur/Wigglers_Room\n * branch            main       -> FETCH_HEAD\n   0038e98..6cdd3a9  main       -> origin/main\nHEAD is now at 6cdd3a9 FEAT-2: move readyHandled to useState — context object is fresh each render, state persists\n",
+  "stdout": "From https://github.com/Cal-Starfur/Wigglers_Room\n * branch            main       -> FETCH_HEAD\nHEAD is now at 6cdd3a9 FEAT-2: move readyHandled to useState — context object is fresh each render, state persists\n",
   "stderr": "",
-  "durationMs": 210,
+  "durationMs": 120,
   "timedOut": false
 }
