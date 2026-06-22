@@ -1,5 +1,9 @@
 {
   "id": "5c034d2a",
-  "ready": false,
-  "running": true
+  "ready": true,
+  "exitCode": 0,
+  "stdout": "From https://github.com/Cal-Starfur/Wigglers_Room\n * branch            main       -> FETCH_HEAD\n   830899e..39b54a5  main       -> origin/main\nHEAD is now at 39b54a5 ISS-18: send worldUpdate after spawnScraps() to prime KV_WORLD on first join\n",
+  "stderr": "",
+  "durationMs": 405,
+  "timedOut": false
 }
