@@ -1,9 +1,5 @@
 {
-  "id": "1025df7c",
-  "ready": true,
-  "exitCode": 1,
-  "stdout": "\nPress enter to open Reddit to complete authentication:\n\nhttps://www.reddit.com/api/v1/authorize?client_id=Bep8X2RRjuoyuxkKsKxFuQ&duration=permanent&redirect_uri=http%3A%2F%2Flocalhost%3A65010%2Fauthorize_callback&response_type=code&scope=%2A&devvit_cli=true&state=ad439c90e0f92afce2f0a8fbb4beda63\n\n",
-  "stderr": "",
-  "durationMs": 60007,
-  "timedOut": true
+  "id": "3fb203c7",
+  "ready": false,
+  "running": true
 }
