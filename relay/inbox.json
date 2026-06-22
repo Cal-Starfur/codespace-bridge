@@ -1,6 +1,4 @@
 {
-  "cmd": "which devvit || find /home/codespace -name devvit 2>/dev/null | head -5",
-  "id": "90fd717d",
-  "cwd": "/workspaces/Wigglers_Room",
-  "ts": "2026-06-22T15:42:23.646617"
+  "cmd": null,
+  "id": null
 }
