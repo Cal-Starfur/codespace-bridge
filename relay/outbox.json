@@ -1,9 +1,5 @@
 {
-  "id": "6110e9fc",
-  "ready": true,
-  "exitCode": 127,
-  "stdout": "/bin/sh: 1: /home/codespace/nvm/current/bin/devvit: not found\n",
-  "stderr": "",
-  "durationMs": 14,
-  "timedOut": false
+  "id": "90fd717d",
+  "ready": false,
+  "running": true
 }
