@@ -1,9 +1,5 @@
 {
-  "id": "e7570c29",
-  "ready": true,
-  "exitCode": 2,
-  "stdout": "Unknown command: \"bin\"\n\nTo see a list of supported npm commands, run:\n  npm help\n---\n",
-  "stderr": "",
-  "durationMs": 969,
-  "timedOut": false
+  "id": "1025df7c",
+  "ready": false,
+  "running": true
 }
