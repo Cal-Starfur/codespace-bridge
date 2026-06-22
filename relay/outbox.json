@@ -1,9 +1,5 @@
 {
-  "id": "c7a627a3",
-  "ready": true,
-  "exitCode": 1,
-  "stdout": "error: cannot lock ref 'refs/remotes/origin/main': is at 0038e98694cd51b1e2698501485d7b1ed78cefb8 but expected 6b8309ac28f7c91153d61868c5f826734cb9da51\nFrom https://github.com/Cal-Starfur/Wigglers_Room\n * branch            main       -> FETCH_HEAD\n ! 6b8309a..0038e98  main       -> origin/main  (unable to update local ref)\n",
-  "stderr": "",
-  "durationMs": 337,
-  "timedOut": false
+  "id": "0f19e129",
+  "ready": false,
+  "running": true
 }
