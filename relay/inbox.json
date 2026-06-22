@@ -1,6 +1,4 @@
 {
-  "cmd": "npx devvit upload --just-do-it 2>&1",
-  "id": "1025df7c",
-  "cwd": "/workspaces/Wigglers_Room",
-  "ts": "2026-06-22T15:43:52.996567"
+  "cmd": null,
+  "id": null
 }
