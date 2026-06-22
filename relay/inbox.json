@@ -1,6 +1,4 @@
 {
-  "cmd": "ls /home/codespace/nvm/versions/node/ 2>/dev/null | tail -3 || echo 'no nvm versions dir'",
-  "id": "8d5bff36",
-  "cwd": "/workspaces/Wigglers_Room",
-  "ts": "2026-06-22T16:26:04.366827"
+  "cmd": null,
+  "id": null
 }
