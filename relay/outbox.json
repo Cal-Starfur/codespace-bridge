@@ -1,5 +1,9 @@
 {
   "id": "71fba165",
-  "ready": false,
-  "running": true
+  "ready": true,
+  "exitCode": 0,
+  "stdout": "From https://github.com/Cal-Starfur/Wigglers_Room\n * branch            main       -> FETCH_HEAD\nHEAD is now at 6b8309a FEAT-2: _loopRunning flag; re-setup worm after device takeover\n",
+  "stderr": "",
+  "durationMs": 212,
+  "timedOut": false
 }
