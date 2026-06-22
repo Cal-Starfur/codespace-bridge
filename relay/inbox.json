@@ -1,4 +1,6 @@
 {
-  "cmd": null,
-  "id": null
+  "cmd": "npm bin -g 2>/dev/null; ls $(npm bin -g) 2>/dev/null | grep devvit; echo '---'; ls ~/.nvm/versions/ 2>/dev/null",
+  "id": "e7570c29",
+  "cwd": "/workspaces/Wigglers_Room",
+  "ts": "2026-06-22T15:43:35.070971"
 }
