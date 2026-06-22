@@ -1,9 +1,5 @@
 {
-  "id": "e6b92ad3",
-  "ready": true,
-  "exitCode": 0,
-  "stdout": "From https://github.com/Cal-Starfur/Wigglers_Room\n * branch            main       -> FETCH_HEAD\nHEAD is now at 92577c9 DEBUG: on-screen overlay showing KV state per device — remove before launch\n",
-  "stderr": "",
-  "durationMs": 150,
-  "timedOut": false
+  "id": "70a9c43f",
+  "ready": false,
+  "running": true
 }
